@@ -12,18 +12,25 @@ h1 {
     padding: 22px;
     background-color: #00669F ;
     font-weight: 500;
+    
 }
-.bat1, .bat2, .hq1 {
+.title{
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+.bat1 {
     height: 500px;
     width: 250px;
     position: relative;
     background-color: #F3F3F3;
-    margin: 200px 20px ;
-    display: inline-block;
-    ;
+    margin: 170px 20px ;
+    
+    
 }
-.bat1 {
-    margin-left: 500px ;
+.box {
+    display: flex;
+    justify-content: center;
 }
 
 .bg {
@@ -37,6 +44,7 @@ h1 {
     z-index: 10;
     left: 10px;
     top: 10px;
+    height: 20px ;
 }
 .circle {
     position: absolute;
@@ -49,14 +57,28 @@ h1 {
 p {
     font-size: 13px;
     text-align: center;
+    
+}
+.mas {
+    position:absolute;
+    background-color: #00669F;
+    color: white;
+    padding: 15px 20px;
+    margin-top:;
 }
 
 .txt1 {
     position: absolute;
     text-align: justify;
-    top: 225px;
+    top: 190px;
     margin: 10px;
     padding: 5px;
+}
+.txt3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
 }
 .txt2 {
     text-align: justify;
@@ -64,4 +86,9 @@ p {
 h2 {
     text-align: center;
 }
-
+footer {
+    text-align: left;
+    background-color: #00669F;
+    color: white;
+    padding: 20px;
+}
