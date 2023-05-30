@@ -1,0 +1,67 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h6 {
+    margin: 0px;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #1CD1B0;
+}
+h1 {
+    margin: 0px;
+    padding: 22px;
+    background-color: #00669F ;
+    font-weight: 500;
+}
+.bat1, .bat2, .hq1 {
+    height: 500px;
+    width: 250px;
+    position: relative;
+    background-color: #F3F3F3;
+    margin: 200px 20px ;
+    display: inline-block;
+    ;
+}
+.bat1 {
+    margin-left: 500px ;
+}
+
+.bg {
+    height: 150px;
+    width: 250px;
+    position: relative; ;
+    
+}
+.icon {
+    position: absolute;
+    z-index: 10;
+    left: 10px;
+    top: 10px;
+}
+.circle {
+    position: absolute;
+    top: 85px;
+    left: 62.5px;
+    z-index: 15;
+    border-radius: 50%;
+    
+}
+p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.txt1 {
+    position: absolute;
+    text-align: justify;
+    top: 225px;
+    margin: 10px;
+    padding: 5px;
+}
+.txt2 {
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+
